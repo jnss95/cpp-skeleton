@@ -1,6 +1,5 @@
 
-int main(int argc, char** argv) {
-    (void)argc;
-    (void)argv;
-    return 0;
+int main(__attribute__((unused)) int argc,
+         __attribute__((unused)) char **argv) {
+  return 0;
 }
