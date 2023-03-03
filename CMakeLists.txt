@@ -14,7 +14,7 @@ set(CMAKE_BUILD_TYPE
 )
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 
-add_compile_options(-Wall -Wextra -Wpedantic -Werror)
+add_compile_options(-Wall -Wextra -Wpedantic)
 FILE(GLOB_RECURSE sources "src/*.cpp")
 add_executable(${PROJECT_NAME} ${sources})
 target_include_directories(${PROJECT_NAME} PRIVATE "src")
